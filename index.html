@@ -3,45 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="天翔国际 - 全球领先的国际货运代理服务商，提供海运、空运、陆运、报关、仓储等一站式物流解决方案. Tianxiang International - A leading global freight forwarding service provider, offering one-stop logistics solutions including sea freight, air freight, land transport, customs clearance, and warehousing. Tianxiang International - Un fournisseur mondial de premier plan de services de transit de fret international, offrant des solutions logistiques uniques comprenant le fret maritime, le fret aérien, le transport terrestre, le dédouanement et l'entreposage.">
-    <meta name="keywords" content="天翔国际, 国际货运, 物流, 海运, 空运, 陆运, 报关, 仓储, Tianxiang International, Freight Forwarding, Logistics, Transit de fret, Logistique, Fret maritime, Fret aérien, Transport terrestre, Dédouanement, Entreposage">
-    <title>天翔国际 | Tianxiang International - 全球货运专家 | Global Freight Experts | Experts Mondiaux du Fret</title>
+    <meta name="description" content="天翔国际 - 全球领先的国际货运代理服务商，提供海运、空运、陆运、报关、仓储等一站式物流解决方案。">
+    <meta name="keywords" content="天翔国际, 国际货运, 物流, 海运, 空运, 陆运, 报关, 仓储, Tianxiang International, Freight Forwarding, Logistics">
+    <title>天翔国际 | Tianxiang International - 全球货运专家</title>
     <link rel="stylesheet" href="style.css">
+    <!-- 引入 Font Awesome 图标库 (可选, 用于图标) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入 Google Fonts (可选, 更换字体) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* 隐藏非当前语言的内容 */
-        .lang-en, .lang-fr {
-            display: none;
-        }
-        .lang-zh-CN {
-            display: block;
-        }
-    </style>
 </head>
 <body>
 
+    <!-- 导航栏 -->
     <header class="header">
         <nav class="navbar container">
             <a href="index.html" class="logo">
-                天翔国际 <span class="logo-en">Tianxiang Int'l</span>
+                <!-- <img src="images/logo.png" alt="天翔国际 Logo"> -->
+                 天翔国际 <span class="logo-en">Tianxiang Int'l</span>
             </a>
-            <div class="nav-links-container">
-                <div class="language-switcher">
-                    <button type="button" class="lang-button active-lang" data-lang="en">English</button>
-                    <button type="button" class="lang-button" data-lang="fr">Français</button>
-                    <button type="button" class="lang-button" data-lang="zh-CN">中文</button>
-                </div>
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="#hero" class="nav-link active lang-zh-CN">首页</a><a href="#hero" class="nav-link active lang-en">Home</a><a href="#hero" class="nav-link active lang-fr">Accueil</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link lang-zh-CN">关于我们</a><a href="#about" class="nav-link lang-en">About Us</a><a href="#about" class="nav-link lang-fr">À Propos de Nous</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link lang-zh-CN">核心服务</a><a href="#services" class="nav-link lang-en">Our Services</a><a href="#services" class="nav-link lang-fr">Nos Services</a></li>
-                    <li class="nav-item"><a href="#why-us" class="nav-link lang-zh-CN">为何选择</a><a href="#why-us" class="nav-link lang-en">Why Choose Us</a><a href="#why-us" class="nav-link lang-fr">Pourquoi Nous Choisir</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link lang-zh-CN">联系我们</a><a href="#contact" class="nav-link lang-en">Contact Us</a><a href="#contact" class="nav-link lang-fr">Contactez-Nous</a></li>
-                </ul>
-            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link active">首页</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">关于我们</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">核心服务</a></li>
+                <li class="nav-item"><a href="#why-us" class="nav-link">为何选择</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">联系我们</a></li>
+            </ul>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -51,132 +39,163 @@
     </header>
 
     <main>
+        <!-- Hero 区域 -->
         <section id="hero" class="hero-section">
             <div class="hero-overlay"></div>
             <div class="hero-content container">
-                <h1 class="hero-title animate-on-load lang-zh-CN">连接世界，运送未来</h1>
-                <h1 class="hero-title animate-on-load lang-en">Connecting the World, Delivering the Future</h1>
-                <h1 class="hero-title animate-on-load lang-fr">Connecter le Monde, Livrer l'Avenir</h1>
-                <p class="hero-subtitle animate-on-load delay-1 lang-zh-CN">天翔国际 - 您值得信赖的全球物流伙伴</p>
-                <p class="hero-subtitle animate-on-load delay-1 lang-en">Tianxiang International - Your Trusted Global Logistics Partner</p>
-                <p class="hero-subtitle animate-on-load delay-1 lang-fr">Tianxiang International - Votre Partenaire Logistique Mondial de Confiance</p>
-                <a href="#contact" class="btn btn-primary animate-on-load delay-2 lang-zh-CN">获取报价</a>
-                <a href="#contact" class="btn btn-primary animate-on-load delay-2 lang-en">Get a Quote</a>
-                <a href="#contact" class="btn btn-primary animate-on-load delay-2 lang-fr">Obtenir un Devis</a>
+                <h1 class="hero-title animate-on-load">连接世界，运送未来</h1>
+                <p class="hero-subtitle animate-on-load delay-1">天翔国际 - 您值得信赖的全球物流伙伴</p>
+                <a href="#contact" class="btn btn-primary animate-on-load delay-2">获取报价</a>
             </div>
             <div class="scroll-down-indicator">
                 <i class="fas fa-chevron-down"></i>
             </div>
         </section>
 
+        <!-- 关于我们 -->
         <section id="about" class="about-section section-padding">
             <div class="container">
-                <h2 class="section-title reveal lang-zh-CN">关于天翔国际</h2>
-                <h2 class="section-title reveal lang-en">About Tianxiang International</h2>
-                <h2 class="section-title reveal lang-fr">À Propos de Tianxiang International</h2>
+                <h2 class="section-title reveal">关于天翔国际</h2>
                 <div class="about-content">
                     <div class="about-text reveal">
-                        <p class="lang-zh-CN">天翔国际是一家领先的国际货运代理公司，致力于为全球客户提供高效、可靠、定制化的一站式物流解决方案。</p>
-                        <p class="lang-en">Tianxiang International is a leading international freight forwarding company committed to providing efficient, reliable, and customized one-stop logistics solutions to global customers.</p>
-                        <p class="lang-fr">Tianxiang International est une entreprise leader de transit de fret international, engagée à fournir des solutions logistiques uniques efficaces, fiables et personnalisées à des clients du monde entier.</p>
-                        <p class="lang-zh-CN">凭借多年的行业经验、遍布全球的网络以及专业的服务团队，我们确保您的货物安全、准时地送达目的地。我们深耕海运、空运、陆路运输、报关清关、仓储配送等领域，以客户为中心，不断创新，追求卓越。</p>
-                        <p class="lang-en">With years of industry experience, a global network, and a professional service team, we ensure your goods are delivered safely and on time to their destination. We specialize in sea freight, air freight, land transport, customs clearance, warehousing, and distribution, focusing on customer needs, continuous innovation, and the pursuit of excellence.</p>
-                        <p class="lang-fr">Grâce à des années d'expérience dans l'industrie, à un réseau mondial et à une équipe de service professionnelle, nous veillons à ce que vos marchandises soient livrées en toute sécurité et à temps à leur destination. Nous sommes spécialisés dans le fret maritime, le fret aérien, le transport terrestre, le dédouanement, l'entreposage et la distribution, en nous concentrant sur les besoins de nos clients, l'innovation continue et la recherche de l'excellence.</p>
-                        <a href="#contact" class="btn btn-secondary lang-zh-CN">了解更多</a>
-                        <a href="#contact" class="btn btn-secondary lang-en">Learn More</a>
-                        <a href="#contact" class="btn btn-secondary lang-fr">En Savoir Plus</a>
+                        <p>天翔国际是一家领先的国际货运代理公司，致力于为全球客户提供高效、可靠、定制化的一站式物流解决方案。</p>
+                        <p>凭借多年的行业经验、遍布全球的网络以及专业的服务团队，我们确保您的货物安全、准时地送达目的地。我们深耕海运、空运、陆路运输、报关清关、仓储配送等领域，以客户为中心，不断创新，追求卓越。</p>
+                        <a href="#contact" class="btn btn-secondary">了解更多</a>
                     </div>
                     <div class="about-image reveal delay-1">
-                        <img src="images/about-us.jpg" alt="天翔国际团队或办公环境 | Tianxiang International Team or Office Environment | Équipe ou environnement de bureau de Tianxiang International">
+                        <!-- 建议放一张公司形象图或团队照片 -->
+                        <img src="images/about-us.jpg" alt="天翔国际团队或办公环境">
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- 核心服务 -->
         <section id="services" class="services-section section-padding bg-light">
             <div class="container">
-                <h2 class="section-title reveal lang-zh-CN">核心服务</h2>
-                <h2 class="section-title reveal lang-en">Our Services</h2>
-                <h2 class="section-title reveal lang-fr">Nos Services</h2>
+                <h2 class="section-title reveal">核心服务</h2>
                 <div class="services-grid">
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fas fa-ship"></i></div>
-                        <h3 class="service-title lang-zh-CN">国际海运</h3>
-                        <h3 class="service-title lang-en">International Sea Freight</h3>
-                        <h3 class="service-title lang-fr">Fret Maritime International</h3>
-                        <p class="service-description lang-zh-CN">提供整箱 (FCL) 和拼箱 (LCL) 服务，覆盖全球主要港口，价格优，船期稳。</p>
-                        <p class="service-description lang-en">Offering Full Container Load (FCL) and Less than Container Load (LCL) services, covering major global ports with competitive prices and stable schedules.</p>
-                        <p class="service-description lang-fr">Offrant des services de chargement complet de conteneur (FCL) et de groupage (LCL), couvrant les principaux ports mondiaux avec des prix compétitifs et des horaires stables.</p>
+                        <h3 class="service-title">国际海运</h3>
+                        <p class="service-description">提供整箱 (FCL) 和拼箱 (LCL) 服务，覆盖全球主要港口，价格优，船期稳。</p>
                     </div>
                     <div class="service-card reveal delay-1">
                         <div class="service-icon"><i class="fas fa-plane-departure"></i></div>
-                        <h3 class="service-title lang-zh-CN">国际空运</h3>
-                        <h3 class="service-title lang-en">International Air Freight</h3>
-                        <h3 class="service-title lang-fr">Fret Aérien International</h3>
-                        <p class="service-description lang-zh-CN">快速、安全的空运解决方案，满足您对时效性的高要求，专业操作保障货物安全。</p>
-                        <p class="service-description lang-en">Fast and secure air freight solutions to meet your urgent time requirements, with professional handling ensuring cargo safety.</p>
-                        <p class="service-description lang-fr">Solutions de fret aérien rapides et sécurisées pour répondre à vos exigences de délais urgents, avec une manutention professionnelle assurant la sécurité des marchandises.</p>
+                        <h3 class="service-title">国际空运</h3>
+                        <p class="service-description">快速、安全的空运解决方案，满足您对时效性的高要求，专业操作保障货物安全。</p>
                     </div>
                     <div class="service-card reveal delay-2">
                         <div class="service-icon"><i class="fas fa-truck"></i></div>
-                        <h3 class="service-title lang-zh-CN">陆路运输</h3>
-                        <h3 class="service-title lang-en">Land Transportation</h3>
-                        <h3 class="service-title lang-fr">Transport Terrestre</h3>
-                        <p class="service-description lang-zh-CN">国内外卡车运输、铁路联运服务，实现门到门无缝衔接。</p>
-                        <p class="service-description lang-en">Domestic and international truck transportation and rail intermodal services, providing seamless door-to-door connectivity.</p>
-                        <p class="service-description lang-fr">Services de transport routier nationaux et internationaux et services intermodaux ferroviaires, offrant une connectivité porte-à-porte sans faille.</p>
+                        <h3 class="service-title">陆路运输</h3>
+                        <p class="service-description">国内外卡车运输、铁路联运服务，实现门到门无缝衔接。</p>
                     </div>
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fas fa-file-invoice"></i></div>
-                        <h3 class="service-title lang-zh-CN">报关清关</h3>
-                        <h3 class="service-title lang-en">Customs Clearance</h3>
-                        <h3 class="service-title lang-fr">Dédouanement</h3>
-                        <p class="service-description lang-zh-CN">专业的报关团队，熟悉各国法规，为您提供高效、合规的清关服务。</p>
-                        <p class="service-description lang-en">Professional customs clearance team, familiar with the regulations of various countries, providing efficient and compliant clearance services.</p>
-                        <p class="service-description lang-fr">Une équipe de dédouanement professionnelle, familière avec les réglementations de divers pays, fournissant des services de dédouanement efficaces et conformes.</p>
+                        <h3 class="service-title">报关清关</h3>
+                        <p class="service-description">专业的报关团队，熟悉各国法规，为您提供高效、合规的清关服务。</p>
                     </div>
                     <div class="service-card reveal delay-1">
                         <div class="service-icon"><i class="fas fa-warehouse"></i></div>
-                        <h3 class="service-title lang-zh-CN">仓储配送</h3>
-                        <h3 class="service-title lang-en">Warehousing & Distribution</h3>
-                        <h3 class="service-title lang-fr">Entreposage et Distribution</h3>
-                        <p class="service-description lang-zh-CN">提供现代化仓储设施及精细化管理，以及最后一公里配送服务。</p>
-                        <p class="service-description lang-en">Providing modern warehousing facilities with meticulous management, as well as last-mile delivery services.</p>
-                        <p class="service-description lang-fr">Fourniture d'installations d'entreposage modernes avec une gestion méticuleuse, ainsi que des services de livraison du dernier kilomètre.</p>
+                        <h3 class="service-title">仓储配送</h3>
+                        <p class="service-description">提供现代化仓储设施及精细化管理，以及最后一公里配送服务。</p>
                     </div>
                     <div class="service-card reveal delay-2">
                         <div class="service-icon"><i class="fas fa-box-open"></i></div>
-                        <h3 class="service-title lang-zh-CN">供应链解决方案</h3>
-                        <h3 class="service-title lang-en">Supply Chain Solutions</h3>
-                        <h3 class="service-title lang-fr">Solutions de Chaîne d'Approvisionnement</h3>
-                        <p class="service-description lang-zh-CN">根据您的需求，量身定制端到端的供应链管理方案，优化成本，提升效率。</p>
-                        <p class="service-description lang-en">Tailor-made end-to-end supply chain management solutions based on your needs, optimizing costs and improving efficiency.</p>
-                        <p class="service-description lang-fr">Solutions de gestion de la chaîne d'approvisionnement de bout en bout sur mesure en fonction de vos besoins, optimisant les coûts et améliorant l'efficacité.</p>
+                        <h3 class="service-title">供应链解决方案</h3>
+                        <p class="service-description">根据您的需求，量身定制端到端的供应链管理方案，优化成本，提升效率。</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- 为何选择我们 -->
         <section id="why-us" class="why-us-section section-padding">
              <div class="container">
-                 <h2 class="section-title reveal lang-zh-CN">为何选择天翔国际？</h2>
-                 <h2 class="section-title reveal lang-en">Why Choose Tianxiang International?</h2>
-                 <h2 class="section-title reveal lang-fr">Pourquoi Choisir Tianxiang International ?</h2>
-                 <div class="features-grid">
+                <h2 class="section-title reveal">为何选择天翔国际？</h2>
+                <div class="features-grid">
+                    <div class="feature-item reveal">
+                        <div class="feature-icon"><i class="fas fa-globe-asia"></i></div>
+                        <h4 class="feature-title">全球网络</h4>
+                        <p>覆盖全球主要经济区域的代理网络，提供无缝的国际运输服务。</p>
+                    </div>
+                     <div class="feature-item reveal delay-1">
+                        <div class="feature-icon"><i class="fas fa-users-cog"></i></div>
+                        <h4 class="feature-title">经验丰富</h4>
+                        <p>资深物流专家团队，拥有处理各类复杂货物的丰富经验。</p>
+                    </div>
+                     <div class="feature-item reveal delay-2">
+                        <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4 class="feature-title">可靠安全</h4>
+                        <p>严格的操作流程和风险控制体系，确保货物安全、准时送达。</p>
+                    </div>
                      <div class="feature-item reveal">
-                         <div class="feature-icon"><i class="fas fa-globe-asia"></i></div>
-                         <h4 class="feature-title lang-zh-CN">全球网络</h4>
-                         <h4 class="feature-title lang-en">Global Network</h4>
-                         <h4 class="feature-title lang-fr">Réseau Mondial</h4>
-                         <p class="lang-zh-CN">覆盖全球主要经济区域的代理网络，提供无缝的国际运输服务。</p>
-                         <p class="lang-en">Agent network covering major global economic regions, providing seamless international transportation services.</p>
-                         <p class="lang-fr">Réseau d'agents couvrant les principales régions économiques mondiales, fournissant des services de transport international sans faille.</p>
-                     </div>
-                      <div class="feature-item reveal delay-1">
-                         <div class="feature-icon"><i class="fas fa-users-cog"></i></div>
-                         <h4 class="feature-title lang-zh-CN">经验丰富</h4>
-                         <h4 class="feature-title lang-en">Experienced Team</h4>
-                         <h4 class="feature-title lang-fr">Équipe Expérimentée</h4>
-                         <p class="lang-zh-CN">资深物流专家团队，拥有处理各类复杂货物的丰富经验。</p>
-                         <p class="lang-en">Experienced team of logistics experts with extensive experience in handling various complex cargoes.</p>
-                         <p class="lang-fr">Équipe expérimentée d'experts en logistique possédant une vaste expérience dans la manutention
+                        <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                        <h4 class="feature-title">客户至上</h4>
+                        <p>提供一对一专属客服，快速响应客户需求，全程跟踪货物状态。</p>
+                    </div>
+                    <div class="feature-item reveal delay-1">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4 class="feature-title">技术驱动</h4>
+                        <p>利用先进的物流信息系统，提供在线查询、追踪等便捷服务。</p>
+                    </div>
+                     <div class="feature-item reveal delay-2">
+                        <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                        <h4 class="feature-title">合作共赢</h4>
+                        <p>致力于与客户建立长期稳定的合作关系，共同发展，创造价值。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我们 -->
+        <section id="contact" class="contact-section section-padding bg-dark">
+            <div class="container">
+                <h2 class="section-title text-white reveal">联系我们 / 获取报价</h2>
+                <p class="section-subtitle text-light reveal">我们的专业团队随时准备为您服务。请填写下表或通过以下方式联系我们。</p>
+                <div class="contact-content">
+                    <div class="contact-form reveal">
+                        <form action="#" method="post"> <!-- 后端处理表单提交 -->
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="您的姓名 *" required>
+                                <input type="email" name="email" placeholder="您的邮箱 *" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="联系电话">
+                                <input type="text" name="company" placeholder="公司名称">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" rows="5" placeholder="请描述您的需求（例如：起运港，目的港，货物类型，重量/体积等）*" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">发送咨询</button>
+                        </form>
+                    </div>
+                    <div class="contact-info reveal delay-1">
+                        <h4 class="text-white">联系信息</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 地址：[在此填入公司详细地址]</p>
+                        <p><i class="fas fa-phone"></i> 电话：<a href="tel:+86XXXXXXXXXXX">+86 [在此填入联系电话]</a></p>
+                        <p><i class="fas fa-fax"></i> 传真：+86 [在此填入传真号码]</p>
+                        <p><i class="fas fa-envelope"></i> 邮箱：<a href="mailto:info@tianxiang.com">info@tianxiang.com</a> (示例)</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="WeChat"><i class="fab fa-weixin"></i></a>
+                            <!-- 可以添加更多社交媒体链接 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer bg-darker">
+        <div class="container">
+            <p>&copy; 2024 | Tianxiang International. All Rights Reserved.</p>
+            <p>技术支持：[如果需要可以写]</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
