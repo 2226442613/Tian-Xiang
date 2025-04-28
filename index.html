@@ -1,207 +1,219 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tianxiang International - A global supplier specializing in the import and export of construction materials, including flooring, lighting, and building supplies.">
     <meta name="keywords" content="Tianxiang International, construction materials, import export, flooring, lighting, building supplies">
-    <title>Tianxiang International - Professional Construction</title>
+    <title> Tianxiang International - professional construction</title>
     <link rel="stylesheet" href="style.css">
+    <!-- 引入 Font Awesome 图标库 (可选, 用于图标) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入 Google Fonts (可选, 更换字体) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="header">
-    <nav class="navbar container">
-        <a href="index.html" class="logo">
-            Tianxiang International <span class="logo-en">TXI</span>
-        </a>
-        <ul class="nav-menu">
-            <li class="nav-item"><a href="#hero" class="nav-link" data-i18n="nav.home"></a></li>
-            <li class="nav-item"><a href="#about" class="nav-link" data-i18n="nav.about"></a></li>
-            <li class="nav-item"><a href="#services" class="nav-link" data-i18n="nav.services"></a></li>
-            <li class="nav-item"><a href="#why-us" class="nav-link" data-i18n="nav.why"></a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link" data-i18n="nav.contact"></a></li>
-        </ul>
-        <div class="lang-switcher">
-            <button id="current-lang"><i class="fas fa-globe"></i> FR</button>
-            <ul id="lang-menu">
-                <li data-lang="fr">Français</li>
-                <li data-lang="zh">中文</li>
+    <!-- 导航栏 -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">
+                <!-- <img src="images/logo.png" alt="Tianxiang International Logo"> -->
+                Tianxiang International <span class="logo-en">TXI</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link active">Homepage</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Core Services</a></li>
+                <li class="nav-item"><a href="#why-us" class="nav-link">Why Tianxiang</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
             </ul>
-        </div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
-</header>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 
-<main>
-    <section id="hero" class="hero-section">
-        <div class="hero-overlay"></div>
-        <div class="hero-content container">
-            <h1 class="hero-title animate-on-load" data-i18n="hero.title"></h1>
-            <p class="hero-subtitle animate-on-load delay-1" data-i18n="hero.subtitle"></p>
-            <a href="#contact" class="btn btn-primary animate-on-load delay-2" data-i18n="hero.cta"></a>
-        </div>
-        <div class="scroll-down-indicator">
-            <i class="fas fa-chevron-down"></i>
-        </div>
-    </section>
+    <main>
+        <!-- Hero 区域 -->
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1 class="hero-title animate-on-load">Building Dreams, Creating Futures.</h1>
+                <p class="hero-subtitle animate-on-load delay-1">Tianxiang International - Your Trusted Global construction Partner</p>
+                <a href="#contact" class="btn btn-primary animate-on-load delay-2">Request a Quote</a>
+            </div>
+            <div class="scroll-down-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
 
-    <section id="about" class="about-section section-padding">
-        <div class="container">
-            <h2 class="section-title reveal" data-i18n="about.title"></h2>
-            <div class="about-content">
-                <div class="about-text reveal">
-                    <p data-i18n="about.text1"></p>
-                    <p data-i18n="about.text2"></p>
-                    <a href="#contact" class="btn btn-secondary" data-i18n="about.cta"></a>
-                </div>
-                <div class="about-image reveal delay-1">
-                    <img src="images/about-us.jpg" alt="About Tianxiang">
+        <!-- 关于我们 -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">About Tianxiang International</h2>
+                <div class="about-content">
+                    <div class="about-text reveal">
+                        <p>Tianxiang International is a leading import and export company specializing in construction materials, dedicated to providing high-quality products and tailored solutions to clients worldwide.</p>
+                        <p>With years of industry experience, a strong global network, and a professional team, we ensure that our materials meet the highest standards and are delivered reliably and efficiently. We focus on flooring, lighting, building supplies, and more, always putting our clients first, driving innovation, and striving for excellence in everything we do.</p>
+
+                        <a href="#contact" class="btn btn-secondary">Discover More</a>
+                    </div>
+                    <div class="about-image reveal delay-1">
+                        <!-- 建议放一张公司形象图或团队照片 -->
+                        <img src="images/about-us.jpg" alt="天翔国际团队或办公环境">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="services" class="services-section section-padding bg-light">
-        <div class="container">
-            <h2 class="section-title reveal" data-i18n="services.title"></h2>
-            <div class="services-grid">
-                <div class="service-card reveal">
-                    <div class="service-icon"><i class="fas fa-ship"></i></div>
-                    <h3 class="service-title" data-i18n="services.shipping.title"></h3>
-                    <p class="service-description" data-i18n="services.shipping.desc"></p>
-                </div>
-                <div class="service-card reveal delay-1">
-                    <div class="service-icon"><i class="fas fa-plane-departure"></i></div>
-                    <h3 class="service-title" data-i18n="services.air.title"></h3>
-                    <p class="service-description" data-i18n="services.air.desc"></p>
-                </div>
-                <div class="service-card reveal delay-2">
-                    <div class="service-icon"><i class="fas fa-truck"></i></div>
-                    <h3 class="service-title" data-i18n="services.land.title"></h3>
-                    <p class="service-description" data-i18n="services.land.desc"></p>
-                </div>
-                <div class="service-card reveal">
-                    <div class="service-icon"><i class="fas fa-file-invoice"></i></div>
-                    <h3 class="service-title" data-i18n="services.customs.title"></h3>
-                    <p class="service-description" data-i18n="services.customs.desc"></p>
-                </div>
-                <div class="service-card reveal delay-1">
-                    <div class="service-icon"><i class="fas fa-warehouse"></i></div>
-                    <h3 class="service-title" data-i18n="services.warehouse.title"></h3>
-                    <p class="service-description" data-i18n="services.warehouse.desc"></p>
-                </div>
-                <div class="service-card reveal delay-2">
-                    <div class="service-icon"><i class="fas fa-box-open"></i></div>
-                    <h3 class="service-title" data-i18n="services.supplychain.title"></h3>
-                    <p class="service-description" data-i18n="services.supplychain.desc"></p>
+        <!-- 核心服务 -->
+        <section id="services" class="services-section section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title reveal">Core Services</h2>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="service-icon"><i class="fas fa-ship"></i></div>
+                        <h3 class="service-title">International Shipping</h3>
+                        <p class="service-description">We offer full container (FCL) and less-than-container (LCL) services, covering major ports worldwide with competitive rates and stable schedules.</p>
+                    </div>
+                    <div class="service-card reveal delay-1">
+                        <div class="service-icon"><i class="fas fa-plane-departure"></i></div>
+                        <h3 class="service-title">Air Freight</h3>                            
+                        <p class="service-description">Fast and secure air freight solutions to meet your urgent delivery needs, with professional handling ensuring cargo safety.</p>
+                    </div>
+                    <div class="service-card reveal delay-2">
+                        <div class="service-icon"><i class="fas fa-truck"></i></div>
+                        <h3 class="service-title">Land Transportation</h3>
+                        <p class="service-description">Truck and rail transportation services for domestic and international shipments, ensuring seamless door-to-door delivery.</p>
+                    </div> 
+                        <div class="service-card reveal">
+                        <div class="service-icon"><i class="fas fa-file-invoice"></i></div>
+                        <h3 class="service-title">Customs Clearance</h3>
+                        <p class="service-description">Experienced customs team familiar with international regulations, providing efficient and compliant clearance services for your shipments.</p>
+                    </div>
+                        <div class="service-card reveal delay-1">
+                        <div class="service-icon"><i class="fas fa-warehouse"></i></div>
+                        <h3 class="service-title">Warehousing & Distribution</h3>
+                        <p class="service-description">Modern warehousing facilities with refined management, offering efficient storage and last-mile distribution services.</p>
+                    </div>
+                    <div class="service-card reveal delay-2">
+                        <div class="service-icon"><i class="fas fa-box-open"></i></div>
+                        <h3 class="service-title">Supply Chain Solutions</h3>
+                        <p class="service-description">Customized end-to-end supply chain management solutions to optimize costs and improve operational efficiency based on your needs.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="why-us" class="why-us-section section-padding">
-        <div class="container">
-            <h2 class="section-title reveal" data-i18n="why.title"></h2>
-            <div class="features-grid">
-                <!-- Example for one feature -->
-                <div class="feature-item reveal">
+        <!-- Why Choose Us -->
+        <section id="why-us" class="why-us-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Why Choose Tianxiang International?</h2>
+                <div class="features-grid">
+                  
+                  <div class="feature-item reveal">
                     <div class="feature-icon"><i class="fas fa-globe-asia"></i></div>
-                    <h4 class="feature-title" data-i18n="why.global.title"></h4>
-                    <p data-i18n="why.global.desc"></p>
+                    <h4 class="feature-title">Global Reach</h4>
+                    <p>We supply construction materials to major markets worldwide, ensuring seamless international distribution and reliable service.</p>
+                  </div>
+            
+                  <div class="feature-item reveal">
+                    <div class="feature-icon"><i class="fas fa-users-cog"></i></div>
+                    <h4 class="feature-title">Industry Expertise</h4>
+                    <p>Our experienced team has deep knowledge in sourcing, exporting, and handling a wide range of construction materials for diverse project needs.</p>
+                  </div>
+            
+                  <div class="feature-item reveal">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4 class="feature-title">Reliable Quality</h4>
+                    <p>We adhere to strict quality standards, ensuring that every product we deliver meets safety, durability, and regulatory requirements.</p>
+                  </div>
+            
+                  <div class="feature-item reveal">
+                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h4 class="feature-title">Dedicated Support</h4>
+                    <p>We provide one-on-one customer service with quick responses, keeping you informed throughout the entire supply and delivery process.</p>
+                  </div>
+            
+                  <div class="feature-item reveal">
+                    <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                    <h4 class="feature-title">Sustainability Commitment</h4>
+                    <p>We prioritize eco-friendly materials and sustainable sourcing practices, supporting green construction projects around the world.</p>
+                  </div>
+            
+                  <div class="feature-item reveal">
+                    <div class="feature-icon"><i class="fas fa-boxes"></i></div>
+                    <h4 class="feature-title">Material Sourcing Flexibility</h4>
+                    <p>We offer flexible sourcing options tailored to your project’s specific material needs, ensuring you get the right products at the right time.</p>
+                  </div>
+            
+                  <div class="feature-item reveal">
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <h4 class="feature-title">Technology-Driven</h4>
+                    <p>Leveraging advanced systems for inventory tracking and order management, we offer transparency and convenience at every step.</p>
+                  </div>
+            
+                  <div class="feature-item reveal">
+                    <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                    <h4 class="feature-title">Long-Term Partnerships</h4>
+                    <p>We are committed to building lasting relationships with our clients, growing together and creating mutual success in every project.</p>
+                      
                 </div>
-                <!-- Repeat for other features... -->
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact-section section-padding bg-dark">
+
+        <!-- 联系我们 -->
+        <section id="contact" class="contact-section section-padding bg-dark">
+            <div class="container">
+                <h2 class="section-title text-white reveal">Contact & Quote </h2>
+                <p class="section-subtitle text-light reveal">Our professional team is always ready to assist you. Please fill out the form below or contact us using the information provided. </p>
+                <div class="contact-content">
+                    <div class="contact-form reveal">
+                        <form action="#" method="post"> <!-- 后端处理表单提交 -->
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name *" required>
+                                <input type="email" name="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number">
+                                <input type="text" name="company" placeholder="Name of the Company">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" rows="5" placeholder="Please describe your needs (e.g., required materials, quantity, delivery location, preferred shipping method, special specifications, etc.).*" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                        </form>
+                    </div>
+                    <div class="contact-info reveal delay-1">
+                        <h4 class="text-white">Contact Information</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Address：113 5718 1a St SW</p>
+                        <p><i class="fas fa-phone"></i> Number：<a href="tel:+86XXXXXXXXXXX">+1 [put the company's number]</a></p>
+                        <p><i class="fas fa-fax"></i> Fax：+1 [put the company's fax]</p>
+                        <p><i class="fas fa-envelope"></i> Email：<a href="mailto:info@tianxiang.com">info@tianxiang.com</a> (sample)</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="WeChat"><i class="fab fa-weixin"></i></a>
+                            <!-- 可以添加更多社交媒体链接 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footnote -->
+    <footer class="footer bg-darker">
         <div class="container">
-            <h2 class="section-title text-white reveal" data-i18n="contact.title"></h2>
-            <p class="section-subtitle text-light reveal" data-i18n="contact.subtitle"></p>
-            <div class="contact-content">
-                <div class="contact-form reveal">
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <input type="text" name="name" placeholder="Your Name *" required>
-                            <input type="email" name="email" placeholder="Email *" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" name="phone" placeholder="Phone Number">
-                            <input type="text" name="company" placeholder="Name of the Company">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" rows="5" placeholder="Message *" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary" data-i18n="contact.submit"></button>
-                    </form>
-                </div>
-                <div class="contact-info reveal delay-1">
-                    <h4 class="text-white" data-i18n="contact.info"></h4>
-                    <p><i class="fas fa-map-marker-alt"></i> Address: 113 5718 1a St SW</p>
-                    <p><i class="fas fa-phone"></i> Phone: <a href="#">+1 [company number]</a></p>
-                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@tianxiang.com">info@tianxiang.com</a></p>
-                </div>
-            </div>
+            <p>&copy; 2024 | Tianxiang International. All Rights Reserved.</p>
         </div>
-    </section>
-</main>
+    </footer>
 
-<footer class="footer bg-darker">
-    <div class="container">
-        <p>&copy; 2024 | Tianxiang International. All Rights Reserved.</p>
-    </div>
-</footer>
-
-<!-- i18next and language script -->
-<script src="https://unpkg.com/i18next@23.10.2/dist/umd/i18next.min.js"></script>
-<script>
-(async function () {
-  const SUPPORTED = ['fr','zh'];
-  const FALLBACK  = 'fr';
-
-  const saved = localStorage.getItem('lang');
-  const browser = navigator.language.slice(0,2);
-  const lang = saved || (SUPPORTED.includes(browser) ? browser : FALLBACK);
-
-  async function fetchDict(l){ return (await fetch(`/locales/${l}.json`)).json(); }
-  const resources = { [lang]: { translation: await fetchDict(lang) } };
-
-  i18next.init({ lng: lang, resources }, swapTexts);
-
-  function swapTexts(){
-    document.querySelectorAll('[data-i18n]').forEach(el=>{
-      el.innerHTML = i18next.t(el.dataset.i18n);
-    });
-    document.documentElement.lang = i18next.language;
-    document.getElementById('current-lang').innerHTML = `<i class='fas fa-globe'></i> ${i18next.language.toUpperCase()}`;
-  }
-
-  const btn = document.getElementById('current-lang');
-  const menu = document.getElementById('lang-menu');
-  btn.onclick = () => menu.classList.toggle('open');
-
-  menu.addEventListener('click', async e=>{
-    const choice = e.target.dataset.lang;
-    if(!choice) return;
-    if(!i18next.hasResourceBundle(choice,'translation')){
-      i18next.addResourceBundle(choice,'translation', await fetchDict(choice));
-    }
-    localStorage.setItem('lang', choice);
-    i18next.changeLanguage(choice, swapTexts);
-    menu.classList.remove('open');
-  });
-})();
-</script>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+ 
