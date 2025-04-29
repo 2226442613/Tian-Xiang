@@ -588,5 +588,7 @@ h2::after {
     color: var(--dark-color);
     cursor: pointer;
     padding: 0.3em 0.5em;
+    position: relative;
+    top: -4px;
   }
   
