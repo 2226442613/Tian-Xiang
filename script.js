@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // extended i18n dictionary
   const T = {
     en: {
-      homepage:        "Homepage",
+      homepage:        "Home",
       product:         "Product",
       about_us:        "About Us",
       core_services:   "Core Services",
